@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING, Union
 from ape.exceptions import ApeException
 from requests import Response
 
-from ape_trueblocks.utils import API_KEY_ENV_KEY_MAP
+from ape_trueblocks.utils import NETWORKS
 
 if TYPE_CHECKING:
     from ape_trueblocks.types import SSHResponse, ResponseValue
